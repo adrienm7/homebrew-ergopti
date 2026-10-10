@@ -14,7 +14,7 @@ cask "ergoptiplus" do
   end
 
   conflicts_with cask: "ergoptiplus@dev"
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "ErgoptiPlus.app"
 
